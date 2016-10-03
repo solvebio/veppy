@@ -71,8 +71,8 @@ class FastaFile(object):
         if not os.path.exists(self.filepath + '.flat') or \
                 not os.path.exists(self.filepath + '.gdx'):
             logger.warn(
-                'FastA indexes not found. Indexing...\'%s\'. '
-                'This may take a moment...' % self.filepath
+                'FASTA indexes not found. Indexing...\'%s\'. '
+                'This may take 10 minutes or more.' % self.filepath
             )
 
         self._fasta = Fasta(self.filepath, record_class=FastaRecord,
@@ -88,7 +88,7 @@ class FastaFile(object):
             expected = SOURCE_DATA_MD5.get(os.path.basename(f))
             if calculated != expected:
                 message = \
-                    'Fasta file {} did not pass MD5 check. ' \
+                    'FASTA file {} did not pass MD5 check. ' \
                     'Expected: {} Found: {}' \
                     .format(f, expected, calculated)
                 if MD5_CHECK_FAIL:
@@ -106,7 +106,7 @@ class FastaFile(object):
     def get(self, chromosome, start, stop):
         fasta_chromosome = self.get_chromosome(chromosome)
         if not fasta_chromosome:
-            logger.warning('Invalid chromosome requested in fasta reader: {}'
+            logger.warning('Invalid chromosome requested in FASTA reader: {}'
                            .format(chromosome))
             return None
 
