@@ -31,7 +31,7 @@ Installation from source
 Setup
 -----
 
-Step 1: (OPTIONAL) Prepare a directory for veppy data
+**Step 1 (OPTIONAL):** Prepare a directory for veppy data
 
 The default data path is: ``./data``
 
@@ -42,7 +42,7 @@ You can override this by setting ``$VEPPY_DATA_DIR``.
     export VEPPY_DATA_DIR=/opt/veppy
 
 
-Step 2: Download source data and build indexes
+**Step 2:** Download source data and build indexes
 
 **NOTE:** This step downloads about 1gb of data. After indexing, the data directory will consume about 8gb of disk space.
 
@@ -51,7 +51,7 @@ Step 2: Download source data and build indexes
     ./scripts/download_data_GRCh37.sh
 
 
-Step 3: Index the source data
+**Step 3:** Index the source data
 
 .. code-block:: bash
 
@@ -63,7 +63,6 @@ Example Usage
 
 .. code-block:: python
 
-    $ python
     >>> from veppy.veppy import calculate_consequences
     >>> variant = ('1', 8025384, 'A', 'T')
     >>> result = calculate_consequences('GRCh37', *variant)
