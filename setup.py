@@ -48,6 +48,7 @@ setup(
     package_dir={"veppy": "veppy"},
     platforms='any',
     install_requires=install_requires,
+    license='MIT',
     # TODO: Test suite
     # test_suite='veppy.test.all',
     entry_points={
@@ -55,6 +56,7 @@ setup(
         # 'console_scripts': ['veppy = veppy.cli.main:main']
     },
     classifiers=[
+        'License :: OSI Approved :: MIT License',
         'Intended Audience :: Science/Research',
         'Operating System :: OS Independent',
         'Programming Language :: Python',
