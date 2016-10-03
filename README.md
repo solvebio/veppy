@@ -63,7 +63,6 @@ $ nosetests --with-coverage --cover-package=veppy
 
 ## About SolveBio
 
-SolveBio is a genomics company based in New York City. For more information,
-visit [solvebio.com](https://www.solvebio.com/).
+SolveBio is a genomics company based in New York City.
 
-![SolveBio](https://s3.amazonaws.com/veppy/solvebio_logo.png)
+[[https://s3.amazonaws.com/veppy/solvebio_logo.png|alt=SolveBio](https://www.solvebio.com/)]
