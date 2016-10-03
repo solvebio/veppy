@@ -2,8 +2,6 @@
 *.swo
 .DS_Store
 
-data/
-
 # Ignore built docs..
 docs/build
 docs/html

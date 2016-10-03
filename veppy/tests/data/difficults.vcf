@@ -1,0 +1,18 @@
+##fileformat=VCFv4.1
+##fileDate=20150513
+##source=SOLVEBIO
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	SAMPLE
+1	25729213	.	AGCACTCATG	A	.	.	STRAND=-;TRANSCRIPT=ENST00000533771;REQUIRED=3_prime_UTR_variant,feature_truncation,stop_lost,coding_sequence_variant;DISALLOWED=inframe_deletion	GT	0/1
+1	11906064	.	CTT	T	.	.	STRAND=-;TRANSCRIPT=ENST00000376476;REQUIRED=3_prime_UTR_variant,feature_truncation,stop_lost;DISALLOWED=frameshift_variant	GT	0/1
+1	11906064	.	CTT	T	.	.	STRAND=-;TRANSCRIPT=ENST00000376480;REQUIRED=3_prime_UTR_variant,feature_truncation,stop_lost;DISALLOWED=frameshift_variant	GT	0/1
+1	156084710	.	A	ATG	.	.	STRAND=-;TRANSCRIPT=ENST00000347559;REQUIRED=start_retained_variant,frameshift_variant;DISALLOWED=	GT	0/1
+1	156084703	.	GCCGGCCATGGAGACC	G	.	.	STRAND=-;TRANSCRIPT=ENST00000347559;REQUIRED=5_prime_UTR_variant,feature_truncation,coding_sequence_variant,start_lost;DISALLOWED=inframe_deletion	GT	0/1
+1	156084703	.	GCCGGCCATGGAGACC	G	.	.	STRAND=-;TRANSCRIPT=ENST00000361308;REQUIRED=5_prime_UTR_variant,feature_truncation,coding_sequence_variant,start_lost;DISALLOWED=inframe_deletion	GT	0/1
+1	156084703	.	GCCGGCCATGGAGACC	G	.	.	STRAND=-;TRANSCRIPT=ENST00000368299;REQUIRED=5_prime_UTR_variant,feature_truncation,coding_sequence_variant,start_lost;DISALLOWED=inframe_deletion	GT	0/1
+1	156084703	.	GCCGGCCATGGAGACC	G	.	.	STRAND=-;TRANSCRIPT=ENST00000368300;REQUIRED=5_prime_UTR_variant,feature_truncation,coding_sequence_variant,start_lost;DISALLOWED=inframe_deletion	GT	0/1
+1	156084703	.	GCCGGCCATGGAGACC	G	.	.	STRAND=-;TRANSCRIPT=ENST00000368301;REQUIRED=5_prime_UTR_variant,feature_truncation,coding_sequence_variant,start_lost;DISALLOWED=inframe_deletion	GT	0/1
+1	196716441	.	TAGAA	T	.	.	STRAND=-;TRANSCRIPT=ENST00000367429;REQUIRED=3_prime_UTR_variant,feature_truncation,coding_sequence_variant,stop_lost;DISALLOWED=frameshift_variant	GT	0/1
+1	196716441	.	TAG	T	.	.	STRAND=-;TRANSCRIPT=ENST00000367429;REQUIRED=feature_truncation,coding_sequence_variant,stop_retained_variant;DISALLOWED=	GT	0/1
+1	201328373	.	G	A	.	.	STRAND=-;TRANSCRIPT=ENST00000438742;REQUIRED=incomplete_terminal_codon_variant;DISALLOWED=missense_variant,synonymous_variant	GT	0/1
+1	204159611	.	CT	C	.	.	STRAND=-;TRANSCRIPT=ENST00000367194;REQUIRED=stop_lost;DISALLOWED=stop_retained_variant,frameshift_variant	GT	0/1
