@@ -1,12 +1,8 @@
-# veppy
+# veppy (alpha)
 
-A genetic variant effect predictor for Python.
+**WARNING: This code is an alpha release and not production-ready. APIs may change at any time.**
 
-Inspired by SnpEff and VEP.
-
-
-**WARNING: This code is an alpha release and not production-read. Any exposed
-APIs may change at any time.**
+A genetic variant effect predictor for Python. Inspired by SnpEff and VEP.
 
 
 ## Installation
