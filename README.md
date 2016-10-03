@@ -5,6 +5,10 @@ A genetic variant effect predictor for Python.
 Inspired by SnpEff and VEP.
 
 
+**WARNING: This code is an alpha release and not production-read. Any exposed
+APIs may change at any time.**
+
+
 ## Installation
 
 ```
