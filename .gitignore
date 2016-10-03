@@ -1,0 +1,78 @@
+*.db
+*.swo
+.DS_Store
+
+data/
+
+# Ignore built docs..
+docs/build
+docs/html
+
+*.py[co]
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+_build
+eggs
+parts
+bin
+develop-eggs
+.installed.cfg
+
+# Installer logs
+pip-cache
+pip-log.txt
+./logs
+*.log
+*.pid
+tmp
+
+# Unit test / coverage reports
+.coverage
+.tox
+.sonar
+
+# Vim
+*.swp
+*.un~
+
+# Emacs
+*\#
+.\#*
+
+# backup files
+*.bak
+
+nohup.out
+
+# Vagrant
+.vagrant
+
+*.rdb
+
+# Virtualenv
+venv
+
+*.lock
+*.log
+
+# PyCharm
+.idea
+# Sublime codeintel
+.codeintel
+
+*.zip
+
+reload
+
+# mkdocs
+site
+
+# coverage html report
+htmlcov
+
+MANIFEST
+.tox

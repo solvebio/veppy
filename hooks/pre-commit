@@ -1,0 +1,12 @@
+#!/bin/sh
+
+against=HEAD
+
+# Redirect output to stderr.
+exec 1>&2
+
+command -v flake8 >/dev/null 2>&1 || { echo >&2 "Pre-commit hook requires flake8. Run 'pip install flake8' and try again."; exit 1; }
+updated_files=`git diff --cached --name-only --diff-filter=AMTU $against -- '*.py'`
+if [ ! -z "$updated_files" ]; then
+    flake8 --filename=*.py --config=tox.ini $updated_files || { echo >&2 "Flake8 failed. Fix the above errors and try again."; exit 1; }
+fi

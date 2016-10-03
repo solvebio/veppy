@@ -1,0 +1,6 @@
+include LICENSE
+include AUTHORS
+include README.md
+include MANIFEST.in
+recursive-include veppy *.md
+recursive-include veppy *.py

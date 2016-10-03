@@ -1,0 +1,4 @@
+# Requirements for local development
+nose
+flake8
+pyvcf>=0.6.8
