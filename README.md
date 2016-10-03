@@ -25,6 +25,8 @@ export VEPPY_DATA_DIR=/opt/veppy
 
 ### Download source data and build indexes
 
+**NOTE: This step downloads about 1gb of data. After indexing, the data directory will consume about 8gb of disk space.**
+
 ```
 ./scripts/download_data_GRCh37.sh
 ```
