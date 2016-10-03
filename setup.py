@@ -32,13 +32,13 @@ if sys.version_info < (2, 6):
 elif sys.version_info >= (3, 0):
     extra['use_2to3'] = True
 
-with io.open('README.md', encoding="utf-8") as f:
+with io.open('README.rst', encoding="utf-8") as f:
     long_description = f.read()
 
 setup(
     name='veppy',
     version=VERSION,
-    description='Genetic Variant Effect Prediction for Python',
+    description='Variant Effect Prediction for Python',
     long_description=long_description,
     author='Solve, Inc.',
     author_email='contact@solvebio.com',
