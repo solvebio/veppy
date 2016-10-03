@@ -49,7 +49,8 @@ print result.results
 
 ## Testing
 
-Tests are based on chr1 versions of input data (TODO upload this somewhere)
+Tests are based on chr1 versions of input data.
+Full genome tests are coming soon!
 
 ```
 $ nosetests
