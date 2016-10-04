@@ -1,4 +1,5 @@
 .. image:: https://s3.amazonaws.com/veppy/veppy_logo.png
+    :width: 300 px
 
 **Variant Effect Prediction for Python**
 
