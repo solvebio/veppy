@@ -1,5 +1,7 @@
-.. image:: https://s3.amazonaws.com/veppy/veppy_logo.png
+.. image:: https://raw.githubusercontent.com/solvebio/veppy/master/images/veppy.png
     :target: https://github.com/solvebio/veppy
+    :alt: Veppy: Variant Effect Prediction for Python
+
 
 **WARNING:** This code is an alpha release and not production-ready. APIs may change at any time.
 
@@ -93,5 +95,6 @@ About SolveBio
 
 SolveBio is a genomics company based in New York City.
 
-.. image:: https://s3.amazonaws.com/veppy/solvebio_logo.png
+.. image:: https://raw.githubusercontent.com/solvebio/veppy/master/images/solvebio.png
     :target: https://www.solvebio.com/
+    :alt: SolveBio
