@@ -1,5 +1,6 @@
-Veppy: Variant Effect Prediction for Python
-===========================================
+.. image:: https://s3.amazonaws.com/veppy/veppy_logo.png
+
+**Variant Effect Prediction for Python**
 
 **WARNING:** This code is an alpha release and not production-ready. APIs may change at any time.
 
