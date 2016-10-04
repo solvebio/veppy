@@ -1,7 +1,6 @@
 .. image:: https://s3.amazonaws.com/veppy/veppy_logo.png
     :target: https://github.com/solvebio/veppy
 
-
 **WARNING:** This code is an alpha release and not production-ready. APIs may change at any time.
 
 Veppy is a genetic variant effect predictor for Python. Inspired by SnpEff and VEP.
