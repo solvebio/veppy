@@ -1,6 +1,6 @@
 .. image:: https://s3.amazonaws.com/veppy/veppy_logo.png
     :target: https://https://github.com/solvebio/veppy
-    :width: 325px
+    :scale: 37%
 
 **Variant Effect Prediction for Python**
 
