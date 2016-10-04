@@ -3,7 +3,8 @@
     :alt: Veppy: Variant Effect Prediction for Python
 
 
-
+About Veppy
+-----------
 
 Veppy is a genetic variant effect predictor for Python. Inspired by SnpEff and VEP.
 
