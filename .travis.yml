@@ -1,12 +1,24 @@
 language: python
+cache: pip
 python:
-          - "2.7"
+    - "2.7"
+    - "2.6"
+    - "2.7"
+    - "3.4"
+    - "3.2"
+    - "3.3"
+    - "3.4"
+    - "3.5"
+    - "pypy"
 install:
-          - pip install flake8
-          - pip install coveralls
+    - pip install flake8
+    - pip install coveralls
 before_script:
-          - flake8 .
+    - flake8 .
 script:
-          - nosetests --with-coverage --cover-package=veppy
+    - python setup.py install
+    - ./scripts/download_data_GRCh37.sh
+    - python ./run_index.py
+    - python setup.py nosetests
 after_success:
-          - coveralls
+    - coveralls
