@@ -3,10 +3,6 @@ import gzip
 import logging
 from cStringIO import StringIO
 
-
-# TODO this is only used by the test cases
-import vcf
-
 logger = logging.getLogger('veppy')
 
 
@@ -247,6 +243,7 @@ class NcbiMapViewReader(CsvReader):
 
 # TODO merge this with other SolveBio VCFReaders
 class VcfReader(FileReader):
+
     def __init__(self, filepath, assembly=None, **kwargs):
         super(VcfReader, self).__init__(filepath)
         self.__reader = None
@@ -258,6 +255,8 @@ class VcfReader(FileReader):
 
     @property
     def reader(self):
+        # TODO this is only used by the test cases
+        import vcf
         # add 'strict_whitespace' kwarg to force PyVCF to split
         #  on '\t' only. this has the affect of enabling proper handling
         #  of INFO fields with spaces
