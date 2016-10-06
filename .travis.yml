@@ -1,7 +1,6 @@
 language: python
 cache: pip
 python:
-    - "2.7"
     - "2.6"
     - "2.7"
     - "3.4"
@@ -19,6 +18,7 @@ script:
     - python setup.py install
     - ./scripts/download_data_GRCh37.sh
     - python ./run_index.py
+    - pip install -r requirements.txt
     - python setup.py nosetests
 after_success:
     - coveralls

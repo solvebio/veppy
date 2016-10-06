@@ -84,6 +84,7 @@ Full genome tests are coming soon!
 
 .. code-block:: bash
 
+    # pip install -r requirements.txt
     $ nosetests
 
 
