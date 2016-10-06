@@ -11,8 +11,8 @@ python:
     - "pypy"
 install:
     - pip install flake8
-    # ordereddict is needed by flake8
-    - if [[ $TRAVIS_PYTHON_VERSION == '2.6' ]]; then pip install ordereddict;  fi
+    # flake8 drops support for py2.6 in v3.0
+    - if [[ $TRAVIS_PYTHON_VERSION == '2.6' ]]; then pip install flake8==2.6.2;  fi
 before_script:
     - flake8 .
 script:
