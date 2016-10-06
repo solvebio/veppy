@@ -362,9 +362,9 @@ upstream_transcript_variant = {
 #  impact: NONE
 # --------------------------------------------------
 no_sequence_alteration = {
-    'SO_accession': '',
+    'SO_accession': 'SO:0002073',
     'SO_term': 'no_sequence_alteration',
-    'description': 'A variant with identical reference and alternate alleles.',
+    'description': 'A position or feature within a sequence that is identical to the comparable position or feature of a specified reference sequence.',  # noqa
     'function': functions.no_sequence_alteration,
     'impact': impacts.NONE,
     'rank': 100,
