@@ -2,6 +2,8 @@
     :target: https://github.com/solvebio/veppy
     :alt: Veppy: Variant Effect Prediction for Python
 
+.. image:: https://travis-ci.org/solvebio/veppy.svg?branch=master
+       :target: https://travis-ci.org/solvebio/veppy
 
 About Veppy
 -----------
@@ -82,6 +84,7 @@ Full genome tests are coming soon!
 
 .. code-block:: bash
 
+    # pip install -r requirements.txt
     $ nosetests
 
 
