@@ -2,8 +2,6 @@
     :target: https://github.com/solvebio/veppy
     :alt: Veppy: Variant Effect Prediction for Python
 
-.. image:: https://travis-ci.org/solvebio/veppy.svg?branch=master
-       :target: https://travis-ci.org/solvebio/veppy
 
 About Veppy
 -----------
@@ -13,9 +11,21 @@ Veppy is a genetic variant effect predictor for Python. Inspired by SnpEff and V
 **WARNING:** This code is an alpha release and not production-ready. APIs may change at any time.
 
 
-.. image:: https://img.shields.io/pypi/v/veppy.svg
+.. |doi| image:: https://zenodo.org/badge/69031688.svg
+    :target: https://zenodo.org/badge/latestdoi/69031688
+
+
+.. |pypi| image:: https://img.shields.io/pypi/v/veppy.svg
     :target: https://pypi.python.org/pypi/veppy
 
+
+.. |travis| image:: https://travis-ci.org/solvebio/veppy.svg?branch=master
+    :target: https://travis-ci.org/solvebio/veppy
+
++---------+---------+----------+
+| |doi|   | |pypi|  | |travis| |
++---------+---------+----------+
+    
 
 Installation
 ------------
